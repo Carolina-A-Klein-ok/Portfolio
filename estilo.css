@@ -13,7 +13,7 @@ header{
 
 .logo{
     font-family: 'IBM Plex Mono', monospace;
-    font-size: 12px;
+    font-size: 10px;
 }
 
 .menu{
@@ -32,8 +32,43 @@ a{
     color: black;
     margin-left: 6px;
 }
+
+.titulo1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 27px;
+
+}
+
+.titulo2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+
+}
+
+.heroinfo{
+    display: flex;
+}
+
+.herotexto{
+    display: flex;
+    flex-direction: column;
+}
+
+img{
+    width: 30%;
+    
+}
  
+.herofoto{
+    display: flex;
+    
+}
 
-
+.flechahero{
+   display: flex;
+   justify-content: center;
+}
 
 
