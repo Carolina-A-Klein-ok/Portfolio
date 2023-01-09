@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&family=IBM+Plex+Mono:wght@200;300;700&family=Roboto:wght@300;700&family=Staatliches&display=swap');
+
+body{
+    background-color: rgba(241, 241, 48, 0.959);
+}
+*{ padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: white;
+}
+
+.logo{
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12px;
+}
+
+.menu{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around
+
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+    margin-left: 6px;
+}
+ 
+
+
+
+
