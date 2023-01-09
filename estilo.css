@@ -1,8 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&family=IBM+Plex+Mono:wght@200;300;700&family=Roboto:wght@300;700&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&family=IBM+Plex+Mono:wght@200;300;700&family=Quicksand:wght@300;400;500&family=Roboto:wght@300;700&family=Staatliches&display=swap');
 
-body{
-    background-color: rgba(241, 241, 48, 0.959);
-}
+
 *{ padding: 0;
     margin: 0;
 }
@@ -13,10 +11,11 @@ header{
 
 .logo{
     font-family: 'IBM Plex Mono', monospace;
-    font-size: 10px;
+    font-size: 9px;
 }
 
 .menu{
+    padding: 12px;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 17px;
@@ -47,28 +46,61 @@ a{
 
 }
 
-.heroinfo{
-    display: flex;
+.contenedor1{
+    margin-right: 40px;
 }
 
-.herotexto{
+.heroinfo{
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background-color: rgba(241, 241, 48, 0.959);
+}
+
+
+.seccion1{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+
+button{
+   padding: 8px;
+   font-family: 'Quicksand', sans-serif;
+   font-weight: 500;
+}
+
+.contacto{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+
 }
 
 img{
-    width: 30%;
+    width: 20%;
     
-}
- 
-.herofoto{
-    display: flex;
-    
-}
+}    
 
 .flechahero{
-   display: flex;
-   justify-content: center;
+   justify-items: center;
 }
 
+
+.hero2{
+
+    background-color: white;
+    margin-top: 30px;
+}
+
+.vivoen{
+    font-size: 18px;
+    margin-top: 10px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300px
+    
+  
+}
 
