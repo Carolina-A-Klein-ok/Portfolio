@@ -9,12 +9,13 @@ header{
     background-color: white;
 }
 
+
 .logo{
     font-family: 'IBM Plex Mono', monospace;
     font-size: 9px;
 }
 
-.menu{
+.contenedormenu{
     padding: 12px;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
@@ -29,8 +30,38 @@ header{
 a{
     text-decoration: none;
     color: black;
-    margin-left: 6px;
+    margin-left: 15px;
 }
+
+
+.menu{
+    transition: 900ms background ease-in ;
+    padding: 4px;
+}
+
+.menu:hover{
+    cursor: pointer;
+background-color: black;
+    color: white; 
+    padding: 4px;   
+}
+
+.iconoanimacion{
+    padding: 4px;
+    margin-left: 20px;
+    transition: 900ms background ease-in ;
+}
+
+.iconoanimacion:hover{
+    cursor: pointer;
+    background-color: black;
+    padding: 4px;
+    color: white;  
+
+}
+
+
+
 
 .titulo1{
     font-family: 'Roboto', sans-serif;
@@ -71,12 +102,22 @@ button{
    padding: 8px;
    font-family: 'Quicksand', sans-serif;
    font-weight: 500;
+   background-color: black;
+   color: white;
+   transition: 900ms background ease-in;
+
 }
+
+.button:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
 
 .contacto{
     font-family: 'Quicksand', sans-serif;
     font-weight: 500;
-
 }
 
 img{
@@ -88,19 +129,17 @@ img{
    justify-items: center;
 }
 
+.vivoen{
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: 300px;
+    font-family: 'Quicksand', sans-serif;;
+
+}
 
 .hero2{
 
     background-color: white;
     margin-top: 30px;
-}
-
-.vivoen{
-    font-size: 18px;
-    margin-top: 10px;
-    font-family: 'Quicksand', sans-serif;
-    font-weight: 300px
-    
-  
 }
 
