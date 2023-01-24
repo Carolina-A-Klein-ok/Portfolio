@@ -97,7 +97,7 @@ background-color: black;
     
 }
 
-button{
+.mistrabajos{
    padding: 8px;
    font-family: 'Quicksand', sans-serif;
    font-weight: 500;
@@ -341,6 +341,7 @@ img{
 .contenedorgeneral{
     display: flex;
     flex-direction: column;
+    margin-top: 30px;
 }
 
 .linea{
@@ -399,7 +400,7 @@ img{
     font-family: 'Quicksand', sans-serif;
     font-weight: 700;
     font-size: 20px;
-    margin-top: 30px;
+    margin-top: 76px;
 }
 
 .contenedorbarra1{
@@ -473,18 +474,19 @@ img{
 .cont-b{
    margin-top: 10px;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    
   
 }
 
-.contenedorbarras1{
+.contencolumna1{
     display: flex;
     flex-direction: column;
     
+
 } 
 
-.contenedorbarras2{
+.contencolumnas2{
     display: flex;
     flex-direction: column;
     
@@ -494,4 +496,19 @@ img{
 display: flex;
 justify-content: space-between;
 margin-bottom: 5px;
+}
+
+.descargar{
+    border-bottom: 2px solid black;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 9px;
+    width: 200px;
+
 }
