@@ -611,3 +611,111 @@ margin-bottom: 5px;
     background-color: #D397C3;
     padding: 7px;
 }
+
+.seccionseis{
+    background-color: #D397C3;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+
+
+.infocontacto{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin-right: 50px;
+    justify-content: flex-start;
+}
+
+.infocontacto h1{
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Quicksand', sans-serif;
+    margin-bottom: 25px;
+    
+}
+
+.infocontacto h2{
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Quicksand', sans-serif;
+    margin-top: 25px;
+    padding: 15px 0;
+}
+
+
+.iconosalineados{
+    display: flex;
+    margin-top: 25px;
+ 
+}
+
+
+
+.infocliente h1{
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.infocliente{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 50px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 400px;
+    margin: 0% auto;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Quicksand', sans-serif;
+    
+}
+
+input[type=text]{
+    border: 0;
+    border-bottom: 1px solid white;
+    padding: 10px 0;
+    background-color: #D397C3;
+    width: 400px;
+
+}
+
+input[type=email]{
+    border: 0;
+    border-bottom: 1px solid white;
+    padding: 10px 0;
+    background-color: #D397C3;
+    width: 400px;
+    
+}
+
+label{
+    padding: 20px 0;
+}
+
+button{
+    padding: 8px;
+   font-family: 'Quicksand', sans-serif;
+   font-weight: 500;
+   background-color: black;
+   color: white;
+   transition: 900ms background ease-in;
+   margin-top: 20px;
+   
+}
