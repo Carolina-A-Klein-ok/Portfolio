@@ -156,6 +156,13 @@ background-color: black;
     justify-content: center;
 }
 
+.secciondos h2{
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Quicksand', sans-serif;
+}
+
 .infoseccion2{
     display: flex;
     margin-top: 50px;
@@ -182,7 +189,6 @@ align-items: center;
     margin-top: 10px;
     font-size: 25px;
     font-weight: 700;
- 
 }
 
 h3{
@@ -196,16 +202,16 @@ h3{
 
 
 
-.tituloparrafo{
+.infoizquierda h2{
     font-family: 'Quicksand', sans-serif;
-    font-weight: 400;
-    font-size: 15px;
+    font-weight: 500;
+    font-size: 20px;
 }
 
 .nombre{
     font-family: 'Quicksand', sans-serif;
     font-weight: 600;
-    font-size: 15px;
+    font-size: 20px;
     text-decoration: underline;
     text-decoration-color: #D397C3;
     text-decoration-style: solid; 
@@ -247,7 +253,7 @@ p{
 
 
 
-.redondoabajo{
+.infoizquierda2 h2{
     font-family: 'Quicksand', sans-serif;
     font-weight: 400;
     font-size: 18px; 
@@ -258,11 +264,7 @@ p{
     font-size: 18px; 
 }
 
-h2{
-    font-family: 'Quicksand', sans-serif;
-    font-weight: 400;
-    font-size: 20px;
-}
+
 
 table{
     margin-top: 30px;
@@ -295,6 +297,18 @@ td{
     padding-bottom: 90px;
 }
 
+.textoquehago{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    margin-bottom: 6px;
+    }
+
+.secciontres h2{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+}
+
 img{
     height: 60px;
     padding: 10px;
@@ -312,7 +326,7 @@ img{
 
 }
 
-.contenedor4{
+.contindividual{
     display: flex;
     flex-direction: column;
     align-items: center; 
@@ -322,7 +336,7 @@ img{
     margin-left: 40px;
 }
 
-.contenedor3{
+.contquehago{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -331,10 +345,8 @@ img{
 }
 
 
-.hero4{
+.seccioncuatro{
     background-color: white;
-    margin-top: 90px;
-    margin-bottom: 90px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -344,10 +356,15 @@ img{
     padding-bottom: 90px;
 }
 
+.seccioncuatro h2{
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Quicksand', sans-serif;
+}
 .contenedorgeneral{
     display: flex;
     flex-direction: column;
-    margin-top: 30px;
 }
 
 .linea{
@@ -356,9 +373,7 @@ img{
     margin-right: 5px;
 }
 
-
-
-.titulocv{
+.textoestudio h3{
     font-family: 'Quicksand', sans-serif;
     font-weight: 700;
     font-size: 15px;
@@ -367,27 +382,35 @@ img{
     padding: 0;
 }
 
-.textocv{
+.textoestudio p{
     font-family: 'Quicksand', sans-serif;
     font-weight: 400;
     font-size: 15px;
-    
-}
-.h2negrita{
-    font-family: 'Quicksand', sans-serif;
-    font-weight: 700;
-    font-size: 20px;
-    margin-bottom: 6px;
 }
 
+.textoexperiencia h3{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    margin-top: 5px;
+    background: none;
+    padding: 0;
+}
+
+.textoexperiencia p{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+
+
+    
+}
 
 .cont1cv{
     display: flex;
     align-items: center;
     margin-top: 30px;
     
- 
-   
 }
 
 .cont2cv{
@@ -402,11 +425,11 @@ img{
  display: flex;
 }
 
-.h2competencias{
+.h2negrita{
     font-family: 'Quicksand', sans-serif;
     font-weight: 700;
     font-size: 20px;
-    margin-top: 76px;
+   padding-top: 30px;
 }
 
 .contenedorbarra1{
@@ -517,5 +540,42 @@ margin-bottom: 5px;
     font-size: 15px;
     padding: 9px;
     width: 200px;
+}
 
+.contenedorfotos{
+    width: 900px;
+}
+
+.contenedorfotos img{
+    margin-left: 15px;
+    height: 170px;
+}
+
+.seccioncinco{
+    background-color: #E3E2E3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+
+.seccioncinco h4{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+    text-decoration-color: #D397C3;
+}
+
+.seccioncinco h2{
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Quicksand', sans-serif;
 }
