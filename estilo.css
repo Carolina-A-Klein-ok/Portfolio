@@ -89,11 +89,17 @@ background-color: black;
 }
 
 
-.seccion1{
+.seccionuno{
     display: flex;
     align-items: center;
     margin-top: 20px;
-    
+}
+
+.contactoyflecha{
+    margin-top: 20px;
+}
+.iconoflechacontacto{
+    margin-left: 3px;
 }
 
 .contenedor1 button{
@@ -306,8 +312,8 @@ td{
 
 .textoquehago{
     font-family: 'Quicksand', sans-serif;
-    font-size: 18px;
-    margin-bottom: 6px;
+    font-size: 14px;
+    margin-bottom: 5px;
     }
 
 .secciontres h2{
@@ -326,6 +332,10 @@ img{
     filter:invert();
     transition: 900ms filter ease-in ;
 }
+.iconoanimacion2{
+    height: 60px;
+    margin-bottom: 4px;
+}
 
 .secciontres h2{
     margin-bottom: 20px;
@@ -336,19 +346,24 @@ img{
 .contindividual{
     display: flex;
     flex-direction: column;
-    align-items: center; 
+    align-items: center;
     margin-bottom: 30px;
-    margin-top: 60px;
-    margin-right: 40px;
-    margin-left: 40px;
+    margin-top: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.contindividual p{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
 }
 
 .contquehago{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    width: 700px;
-   
+    justify-content: space-between;
+    width: 800px;
 }
 
 
@@ -461,7 +476,9 @@ img{
     height: 12px;
     background-color: #D397C3;
     border-radius: 100px;
+ 
 }
+
 
 .contenedorbarra2{
     width: 480px;
@@ -717,5 +734,24 @@ button{
    color: white;
    transition: 900ms background ease-in;
    margin-top: 20px;
+  
    
+}
+
+.flechablanca{
+   filter: invert();
+   height: 19px;
+}
+
+.botonyflecha{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ justify-items: center;
+
+}
+
+.botonyflecha img{
+    padding: none;
+    margin: 0;
 }
