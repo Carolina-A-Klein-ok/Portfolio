@@ -95,9 +95,7 @@ background-color: black;
     margin-top: 20px;
 }
 
-.contactoyflecha{
-    margin-top: 20px;
-}
+
 .iconoflechacontacto{
     margin-left: 3px;
 }
@@ -127,7 +125,8 @@ background-color: black;
     border: 1px solid white;
     border-radius: 50%;
     background-color: white;
-    transition: none;  
+    transition: none; 
+    box-shadow: 1px 5px 20px black; 
 }    
 
 .heroinfo img:hover{
@@ -393,10 +392,15 @@ img{
     flex-direction: column;
 }
 
+.contenedorgeneral hr{
+    color: rgba(253, 253, 253, 0.952);
+    margin: 11px 0;
+}
+
 .linea{
-    height: 150px;
+    height: 181px;
     border-left: 2px solid #D397C3 ;
-    margin-right: 5px;
+    margin-right: 9px;
 }
 
 .textoestudio h3{
