@@ -102,21 +102,17 @@ background-color: black;
     margin-left: 3px;
 }
 
-.contenedor1 button{
-   padding: 8px;
+.seccionuno button{
+    padding: 10px;
+    padding-left: 4px;
    font-family: 'Quicksand', sans-serif;
    font-weight: 500;
    background-color: black;
-   color: white;
-   transition: 900ms background ease-in;
-
+   color: antiquewhite;
+   display: flex;
+   
 }
 
-.button:hover{
-    background-color: white;
-    color: black;
-    cursor: pointer;
-}
 
 
 .contacto{
@@ -460,6 +456,7 @@ img{
     font-weight: 700;
     font-size: 20px;
    padding-top: 30px;
+   padding-bottom: 10px;
 }
 
 .contenedorbarra1{
@@ -726,32 +723,26 @@ label{
     padding: 20px 0;
 }
 
-button{
-    padding: 8px;
+.botonyflecha button{
    font-family: 'Quicksand', sans-serif;
    font-weight: 500;
    background-color: black;
    color: white;
    transition: 900ms background ease-in;
    margin-top: 20px;
-  
+   padding: 8px;
    
 }
 
-.flechablanca{
+.botonyflecha i{
    filter: invert();
-   height: 19px;
+   font-size: 18px;
+   padding-right: 7px;
 }
 
 .botonyflecha{
- display: flex;
- align-items: center;
- justify-content: center;
- justify-items: center;
-
+    display: flex;
+    justify-content: center;
+     
 }
 
-.botonyflecha img{
-    padding: none;
-    margin: 0;
-}
